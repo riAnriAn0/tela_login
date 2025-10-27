@@ -5,6 +5,7 @@
     --cor-preta: #000000;
     --cor-cinza-claro: rgb(0,0,0,0.5);
     --cor-cinza: #1E1E1E;
+    --cor-cinza-claro-2: #f1f2f3;
     --cor-braca: #ffffff;
     --font-p: 12px;
     --font-m: 15px;
@@ -126,20 +127,33 @@ button{
     font-size: var(--font-p);
     text-align: center;
     color: var(--cor-cinza-claro);
+    margin-bottom: 5px;
 }
 
 #termos_condicoes input{
     color: var(--cor-verde);
     text-decoration: none;
+    cursor: pointer;
 }
 
 #retorno{
     width: 100%;
     margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 250px;
+    cursor: none;
+}
+
+#retorno:hover{
+    cursor: pointer;
 }
 
 #retorno i{
-    font-size: var(--font-m);
+    font-size: var(--font-g);
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 800px) {
