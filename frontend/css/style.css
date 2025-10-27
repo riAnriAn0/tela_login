@@ -47,7 +47,7 @@ form{
 #img_user{
     width: 100px;
     height: 100px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 30px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
